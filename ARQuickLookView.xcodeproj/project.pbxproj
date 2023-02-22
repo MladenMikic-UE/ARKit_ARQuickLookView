@@ -9,18 +9,24 @@
 /* Begin PBXBuildFile section */
 		F6B86A6A29A368D3009B4FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A6929A368D3009B4FCF /* AppDelegate.swift */; };
 		F6B86A6C29A368D3009B4FCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A6B29A368D3009B4FCF /* ContentView.swift */; };
-		F6B86A6E29A368D3009B4FCF /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A6D29A368D3009B4FCF /* Experience.rcproject */; };
 		F6B86A7029A368D4009B4FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B86A6F29A368D4009B4FCF /* Assets.xcassets */; };
 		F6B86A7329A368D4009B4FCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B86A7229A368D4009B4FCF /* Preview Assets.xcassets */; };
+		F6B86A7C29A36F3C009B4FCF /* Apple_Free_USDZ.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F6B86A7B29A36F3C009B4FCF /* Apple_Free_USDZ.usdz */; };
+		F6B86A7E29A371B2009B4FCF /* ARQuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */; };
+		F6B86A8029A371CF009B4FCF /* ARQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A7F29A371CF009B4FCF /* ARQuickLookView.swift */; };
+		F6B86A8229A37207009B4FCF /* ARQuickLookView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A8129A37207009B4FCF /* ARQuickLookView+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F6B86A6629A368D3009B4FCF /* ARQuickLookView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARQuickLookView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6B86A6929A368D3009B4FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6B86A6B29A368D3009B4FCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F6B86A6D29A368D3009B4FCF /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		F6B86A6F29A368D4009B4FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B86A7229A368D4009B4FCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6B86A7B29A36F3C009B4FCF /* Apple_Free_USDZ.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Apple_Free_USDZ.usdz; sourceTree = "<group>"; };
+		F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLookViewController.swift; sourceTree = "<group>"; };
+		F6B86A7F29A371CF009B4FCF /* ARQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLookView.swift; sourceTree = "<group>"; };
+		F6B86A8129A37207009B4FCF /* ARQuickLookView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARQuickLookView+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			children = (
 				F6B86A6929A368D3009B4FCF /* AppDelegate.swift */,
 				F6B86A6B29A368D3009B4FCF /* ContentView.swift */,
-				F6B86A6D29A368D3009B4FCF /* Experience.rcproject */,
+				F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */,
+				F6B86A7F29A371CF009B4FCF /* ARQuickLookView.swift */,
+				F6B86A8129A37207009B4FCF /* ARQuickLookView+ViewModel.swift */,
+				F6B86A7B29A36F3C009B4FCF /* Apple_Free_USDZ.usdz */,
 				F6B86A6F29A368D4009B4FCF /* Assets.xcassets */,
 				F6B86A7129A368D4009B4FCF /* Preview Content */,
 			);
@@ -128,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B86A7C29A36F3C009B4FCF /* Apple_Free_USDZ.usdz in Resources */,
 				F6B86A7329A368D4009B4FCF /* Preview Assets.xcassets in Resources */,
 				F6B86A7029A368D4009B4FCF /* Assets.xcassets in Resources */,
 			);
@@ -140,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B86A8029A371CF009B4FCF /* ARQuickLookView.swift in Sources */,
+				F6B86A7E29A371B2009B4FCF /* ARQuickLookViewController.swift in Sources */,
 				F6B86A6C29A368D3009B4FCF /* ContentView.swift in Sources */,
+				F6B86A8229A37207009B4FCF /* ARQuickLookView+ViewModel.swift in Sources */,
 				F6B86A6A29A368D3009B4FCF /* AppDelegate.swift in Sources */,
-				F6B86A6E29A368D3009B4FCF /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +293,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +325,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
