@@ -15,6 +15,7 @@
 		F6B86A7E29A371B2009B4FCF /* ARQuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */; };
 		F6B86A8029A371CF009B4FCF /* ARQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A7F29A371CF009B4FCF /* ARQuickLookView.swift */; };
 		F6B86A8229A37207009B4FCF /* ARQuickLookView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B86A8129A37207009B4FCF /* ARQuickLookView+ViewModel.swift */; };
+		F6D9F35329A5F089001BEFFE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6D9F35229A5F088001BEFFE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLookViewController.swift; sourceTree = "<group>"; };
 		F6B86A7F29A371CF009B4FCF /* ARQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuickLookView.swift; sourceTree = "<group>"; };
 		F6B86A8129A37207009B4FCF /* ARQuickLookView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARQuickLookView+ViewModel.swift"; sourceTree = "<group>"; };
+		F6D9F35229A5F088001BEFFE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		F6B86A6829A368D3009B4FCF /* ARQuickLookView */ = {
 			isa = PBXGroup;
 			children = (
+				F6D9F35229A5F088001BEFFE /* README.md */,
 				F6B86A6929A368D3009B4FCF /* AppDelegate.swift */,
 				F6B86A6B29A368D3009B4FCF /* ContentView.swift */,
 				F6B86A7D29A371B2009B4FCF /* ARQuickLookViewController.swift */,
@@ -139,6 +142,7 @@
 			files = (
 				F6B86A7C29A36F3C009B4FCF /* Apple_Free_USDZ.usdz in Resources */,
 				F6B86A7329A368D4009B4FCF /* Preview Assets.xcassets in Resources */,
+				F6D9F35329A5F089001BEFFE /* README.md in Resources */,
 				F6B86A7029A368D4009B4FCF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
